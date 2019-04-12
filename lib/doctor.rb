@@ -16,7 +16,8 @@ class Doctor
   end
   end
   def patients
-    
+    appointments.map(&:artist)
+end
     
   end
 
