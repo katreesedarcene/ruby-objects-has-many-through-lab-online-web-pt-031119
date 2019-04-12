@@ -19,8 +19,7 @@ class Artist
     end
   end
   def genres 
-    Genre.all.select do |s| 
-      s[value]
+    songs.map
       
     end
   end
