@@ -19,8 +19,7 @@ class Artist
     end
   end
   def genres 
-    
-    
+    songs.map(&:genre)
 end 
 
 end
