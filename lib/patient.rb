@@ -12,4 +12,5 @@ class Patient
      Appointment.new(self, doctor, date)
   end
   
+  
 end
